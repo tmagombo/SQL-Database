@@ -74,7 +74,7 @@ function start() {
                     );
                 }
                 else {
-                    console.log("\nSorry we don't have enough of that item.....We have " + diff + " in stock.");
+                    console.log("\nSorry we don't have enough of that item.....We have " + chosenItem.stock_quanity + " in stock.");
                     console.log('------------------------------------------------------------------\n');
                     again();
                 };
